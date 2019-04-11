@@ -92,7 +92,8 @@ while boolRunAgain == 1:
     theftPoints = 0
 
     for x in range (numOfPurchases):
-    # we build our initial purchase and modify only if fraud is true.
+        
+        # we build our initial purchase and modify only if fraud is true.
         newPurchase = [(random.randint(1,100)/10)]
         #check for fraud and if fraud, pick a strategy.
         # 50/50 chance of fraud
@@ -148,6 +149,7 @@ while boolRunAgain == 1:
 
         if angryCustomer == 15:
             flagAuthentic = flagAuthentic - 1
+            signalChance = signalChance - 1
             angryCustomer = 0
 
             # After we know it is fraud or not, and if it was caught or not, then we do payoffs
