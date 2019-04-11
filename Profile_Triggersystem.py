@@ -16,7 +16,7 @@ signalChance = int(input("percernt chance that the system will trigger"))
 for x in range (numOfPurchases):
     purchase = (random.randint(authLow,authHigh)/10)
     profile = (profile + purchase)
-profile = (profile/numOfPurchases)
+#profile = (profile/numOfPurchases)
 print (profile)
 
 print ("")

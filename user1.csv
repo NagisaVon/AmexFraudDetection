@@ -1,0 +1,6 @@
+UserID,tID,Time,Category,isOnline,Amount
+1,1,Apr 11 06:39,Food,True,57.56
+1,2,Apr 11 06:39,Food,False,58.99
+1,3,Apr 11 06:39,Grocery,False,137.13
+1,4,Apr 11 06:39,Food,True,61.83
+1,5,Apr 11 06:39,Electronic,False,1658.33
